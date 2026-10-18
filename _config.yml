@@ -1,0 +1,24 @@
+# Basic Jekyll configuration
+
+title: "Famous Chess Games & Puzzles"
+email: "you@example.com"
+description: >- 
+  Detailed breakdowns of ten iconic chess games with Stockfish 17 analysis and puzzles.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+theme: minima
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Collections
+collections:
+  games:
+    output: true
+
+# Plugins (if any)
+# plugins:
+#   - jekyll-feed
